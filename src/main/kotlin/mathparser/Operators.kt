@@ -6,7 +6,7 @@ enum class NormalOperators(val sign:String, val precedence: Int) {
     DIVISION("/",4),
     POWER("^", 5),
     EXPONENTIAL("E", 5),
-    UNARY("u", 6)
+    UNARY("u", 6),
 }
 enum class FunctionalOperators(val func: String){
     sin("sin("),
